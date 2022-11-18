@@ -1,0 +1,12 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+}
+
+.footer .container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}/*# sourceMappingURL=footer.css.map */

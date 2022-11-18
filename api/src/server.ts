@@ -10,7 +10,7 @@ const mongoUrl = MONGODB_URI
 mongoose
   .connect(mongoUrl)
   .then(() => {
-    logger.info('Connected to MongoDB')
+    logger.info('Connected to MongoDB locally')
   })
   .catch((err: Error) => {
     console.log(
