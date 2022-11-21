@@ -39,5 +39,4 @@ const orderSchema = new mongoose.Schema(
   },
   { timestamps: true }
 )
-
 export default mongoose.model<OrderDocument>('Order', orderSchema)
